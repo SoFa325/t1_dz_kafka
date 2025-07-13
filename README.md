@@ -1,2 +1,7 @@
- docker-compose up -d для запуска контейнеров
- Центральная точка запуска Spring приложения DZ1KafkaApplication
+Для запуска контейнеров(Kafka):
+
+bash
+docker-compose up -d
+
+Центральная точка запуска Spring приложения DZ1KafkaApplication
+
