@@ -25,7 +25,7 @@ public class WeatherServiceProducer {
     public void sendWeatherData() {
         WeatherData weatherData = WeatherData.generate();
         kafkaTemplate.send(topic, weatherData.location(), weatherData);
-        log.info("Sent weather data for {}",
+        log.info("Отправлены данные о погоде: {}",
                 weatherData);
     }
 }
